@@ -1,0 +1,25 @@
+package lacoscondicionais;
+
+public class lacoscondicionais {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int numero1, numero2;
+		
+		numero1 = 3;
+		numero2 = 5;
+		
+		if(numero1 > numero2 || numero2 == 5) {
+			System.out.println("O numero 1 é maior que o numero 2");
+			System.out.println("O numero 2 é igual a 5");
+		} else {
+			System.out.println("Alguma coisa deu ruim");
+		}
+		
+		if(numero1 < numero2) {
+			System.out.println("O numero 1 é maior que o numero 2");
+		}
+	}
+
+}

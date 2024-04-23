@@ -1,0 +1,19 @@
+package lacosrepeticao;
+
+public class TestandoDoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero = 1;
+		
+		do {
+			System.out.println("Digite um número: ");
+			numero = leia.nextInt();
+			resultado = numero*5;
+			
+		}while(numero<2);
+		
+		}
+
+}

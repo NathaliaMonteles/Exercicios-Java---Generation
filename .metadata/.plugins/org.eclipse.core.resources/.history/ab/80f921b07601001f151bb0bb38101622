@@ -1,0 +1,12 @@
+package lacosrepeticao;
+
+public class TestandoWhile2 {
+
+	public static void main(String[] args) {
+		// While com saída definida pelo usuário
+		
+		
+
+	}
+
+}

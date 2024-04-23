@@ -1,0 +1,17 @@
+package lacosrepeticao;
+
+public class TestandoDoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero = 2;
+		
+		do {
+			System.out.println("Olá mundo!");
+			numero++;
+		}while(numero<2);
+		
+		}
+
+}

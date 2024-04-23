@@ -1,0 +1,29 @@
+package atividadespraticas;
+
+import java.util.Scanner;
+
+public class Atividade1While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Escreva um algoritmo em Java, que leia a idade de várias pessoas (números inteiros), 
+		// via teclado e mostre na tela o total de pessoas cuja idade seja menor que 21 anos e o 
+		// total de pessoas cuja idade seja maior que 50 anos. A leitura dos dados deve ser finalizada 
+		// ao digitar uma idade negativa. 
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int idadeMenor, idadeMaior, idade;
+		
+		while (idade >= 0) {
+			
+			System.out.println("Digite sua idade: ");
+			idade = leia.nextInt();
+			if (idade < 21) {
+				idadeMenor++;
+			}
+		}
+	}
+
+}

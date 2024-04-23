@@ -1,0 +1,17 @@
+package lacosrepeticao;
+
+public class TestandoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero = 1;
+		while(numero<3) {
+			System.out.println("Olá mundo!");
+			System.out.println(numero);
+			numero+=3;
+		}
+
+	}
+
+}

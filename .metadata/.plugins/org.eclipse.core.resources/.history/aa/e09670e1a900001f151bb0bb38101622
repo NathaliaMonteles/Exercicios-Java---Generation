@@ -1,0 +1,30 @@
+package lacoscondicionais;
+
+import java.util.Scanner;
+
+public class calculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int numero1, numero2;
+		
+		System.out.println("Por favor, ó grande usuário, digite o primeiro numero");
+		numero1 = leia.nextInt();
+		
+		System.out.println("Por favor, ó grande usuário, digite o primeiro numero");
+		numero2 = leia.nextInt();
+		
+		System.out.println("Selecione uma opção:");
+        System.out.println("*** 1 - Somar os numeros ***");
+        System.out.println("*** 2 - Subtrair os numeros ***");
+        System.out.println("*** 3 - Multiplicar os numeros ***");
+        System.out.println("*** 4 - Dividir o primeiro pelo segundo ***");
+		 
+		
+
+	}
+
+}

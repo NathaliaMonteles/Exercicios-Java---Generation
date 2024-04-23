@@ -1,0 +1,31 @@
+package lacoscondicionais;
+
+import java.util.Scanner;
+
+public class ExercicioDois {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Escreva um algoritmo em Java, que leia um número inteiro via teclado e 
+		 * mostre na tela uma mensagem indicando se este número é par ou ímpar e 
+		 * se o número é positivo ou negativo. 
+		 */
+		
+		/*
+		 * valor do tipo inteiro***
+		 * entrada via teclado***
+		 * saida - numero é par ou impar
+		 * saida - positivo ou negativo
+		 */
+		
+		int numero;
+		Scanner leia = new Scanner (System.in);
+		System.out.println("Digite um número inteiro: ");
+		numero = leia.nextInt();
+		
+
+	}
+
+}

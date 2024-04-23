@@ -1,0 +1,16 @@
+package operadores;
+
+public class operadores {
+
+	public static void main(String[] args) {
+		// vamos testar os operadores
+		
+		//
+		int a,b,resultado;
+		a=25;
+		b=45;
+		resultado = a + b;
+
+	}
+
+}

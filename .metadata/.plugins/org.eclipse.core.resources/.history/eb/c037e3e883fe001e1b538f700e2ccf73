@@ -1,0 +1,73 @@
+package operadores;
+
+public class operadores {
+
+	public static void main(String[] args) {
+		// vamos testar os operadores
+		
+		//
+		int a,b,resultado;
+		a=25;
+		b=45;
+		resultado = a + b;
+		
+		System.out.println(resultado);
+
+		resultado = b - a;
+		
+		System.out.println(resultado);
+		
+		//multiplicação
+		
+		resultado = a *2;
+		System.out.println(resultado);
+		
+		float resultado2, num1,num2;
+		num1 = 25.0f;
+		num2 = 45.0f;
+		//divisão
+		resultado2 = num2/num1;
+		
+		System.out.println(resultado2);
+		
+		//modulo
+		resultado = 31%2;
+		
+		System.out.println("O resto da divisão é: " +resultado);
+		
+		//autoincrement
+		int x = 0;
+		//x = x +1;
+		x++;
+		System.out.println(x);
+		x++;
+		System.out.println("agora x vale: "+x);
+		x++;
+		
+		x+=;
+		
+		System.out.println();
+		
+		
+		//----------------------------------------------------------------------------------------------
+		System.out.println("------------------------------------------------------------------------------");
+		
+		int z = 2;
+		//z = z *3;
+		z *=3;
+		System.out.println(z);
+		
+		//----------------------------------------------------------------------------------------------
+		System.out.println("--------------------------------operadores relacionais--------------------");
+		
+		int n1, n2;
+		n1 = 8;
+		n2 = 20;
+		
+		boolean r;
+		
+		r = n1 > n2 ;
+		
+	}
+
+}
