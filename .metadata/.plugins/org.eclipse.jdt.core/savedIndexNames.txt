@@ -6,7 +6,6 @@ INDEX VERSION 1.134+C:\Users\natha\Documents\workspace-spring-tool-suite-4-4.22.
 1614603399.index
 3999446023.index
 1820157366.index
-1541495946.index
 1865797976.index
 3406171383.index
 3297730832.index
