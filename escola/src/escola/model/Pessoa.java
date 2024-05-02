@@ -79,6 +79,6 @@ public abstract class Pessoa {
 		System.out.println("Nome: " + this.nome + "telefone: " + this.telefone);
 	}
 	
+	public abstract void acompanharCanvas();
 	
-
 }

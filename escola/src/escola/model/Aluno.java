@@ -46,5 +46,10 @@ public class Aluno extends Pessoa {
 		System.out.println("Nome do Responsável: "+ this.nomeResponsavel);
 	}
 	
+	@Override
+	public void acompanharCanvas() {
+		System.out.println("Alune! Verifique o seu canvas diariamente, faça  o Barometro!");
+	}
+	
 
 }

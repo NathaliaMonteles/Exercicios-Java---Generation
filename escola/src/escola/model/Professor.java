@@ -38,6 +38,16 @@ public class Professor extends Pessoa {
 		System.out.println("Disciplina: "+ this.disciplina);
 	}
 	
+	@Override
+	public void acompanharCanvas() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Olá professor(A), verifique diariamente as entregas no canvas.");
+	}
+	
+	public void legal() {
+		System.out.println("O professor é legal");
+	}
 	
 
 }
