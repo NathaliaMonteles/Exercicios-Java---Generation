@@ -51,5 +51,10 @@ public class Aluno extends Pessoa {
 		System.out.println("Alune! Verifique o seu canvas diariamente, faça  o Barometro!");
 	}
 	
+	@Override
+	public float salarioLiquido(float salario) {
+		// calcular o salario do professor
+		return salario - 10;
+	}
 
 }

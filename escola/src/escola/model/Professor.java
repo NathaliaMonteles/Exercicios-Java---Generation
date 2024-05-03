@@ -49,5 +49,10 @@ public class Professor extends Pessoa {
 		System.out.println("O professor é legal");
 	}
 	
+	@Override
+	public float salarioLiquido(float salario) {
+		// calcular o salario do professor
+		return salario - 150;
+	}
 
 }

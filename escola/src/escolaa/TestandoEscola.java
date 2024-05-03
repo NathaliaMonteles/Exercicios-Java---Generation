@@ -4,6 +4,7 @@ import escola.controller.AlunoController;
 import escola.model.Aluno;
 import escola.model.Pessoa;
 import escola.model.Professor;
+import escola.model.Servente;
 
 public class TestandoEscola {
 
@@ -30,6 +31,14 @@ public class TestandoEscola {
 		//----- chamando nossa classe controller
 		AlunoController alunoContr = new AlunoController();
 		alunoContr.fazerExercicio();
+		
+		System.out.println("o salario da bolsa do participante é: " + a.salarioLiquido(250.00f));
+		
+		System.out.println("o salario do professor é: " + p.salarioLiquido(10000.00f));
+		
+		Servente s = new Servente(2, "Cleber", 18, "Masculino", "cleber@gmail.com",
+				"(11)5591-7922", "Limpeza");
+		
 	}
 
 }
