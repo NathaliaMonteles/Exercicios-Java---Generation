@@ -9,36 +9,34 @@ import escola.model.Servente;
 public class TestandoEscola {
 
 	public static void main(String[] args) {
-		// chamando as classes e instanciando os objetos
+		// TODO Auto-generated method stub
 		
-		Aluno a = new Aluno(1, "Ellen Silva", 29, "Feminino", "ellen.generation@gmail.com", 
+		Aluno a = new Aluno(1, "Ellen Silva", 29, "Feminino", "ellen.generation@gmail.com",
 				"(11)4002-8922", "Maria", 2024, "(11)4002-8922");
 		
 		Professor p = new Professor(2, "Thiago", 28, "Masculino", "thiagodapraiagrande@gmail.com",
-				"(11)5591-7922", "Full stack", "Vida");
+				"(11)5591-7922", "Full Stack", "Vida");
 		
-		
-		//Pessoa x = new Pessoa(5, "Vinicius", 25, "Masculino", "vinicius_kbc@hotmail.com", "(11)9.7070-7070");
-		
+		//Pessoa x = new Pessoa(5, "Vinícius", 25, "Masculino", "vinicius_kbc@hotmail.com", "(11)97070-7070");
+	
 		a.visualizar();
 		a.acompanharCanvas();
-		//a.legal();
-		
 		p.visualizar();
 		p.acompanharCanvas();
-		p.legal();
 		
-		//----- chamando nossa classe controller
+		
+		//// chamando a classe controller
+		
 		AlunoController alunoContr = new AlunoController();
 		alunoContr.fazerExercicio();
 		
-		System.out.println("o salario da bolsa do participante é: " + a.salarioLiquido(250.00f));
+		System.out.println("O salario da bolsa é: R$ " + a.salarioLiquido(250.00f));
 		
-		System.out.println("o salario do professor é: " + p.salarioLiquido(10000.00f));
+		System.out.println("O salário do professor é: R$ " + p.salarioLiquido(10000.00f));
 		
-		Servente s = new Servente(2, "Cleber", 18, "Masculino", "cleber@gmail.com",
-				"(11)5591-7922", "Limpeza");
+		Servente s = new Servente (2, "Cleber", 18, "Masculino", "cleber@gmail.com",
+				"(11)5591-7922", "Monitor");
+		System.out.println("O salário é: R$ " + s.salarioLiquido(8000.0f));
 		
 	}
-
 }
